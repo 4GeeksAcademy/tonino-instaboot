@@ -1,35 +1,24 @@
 
-.container{
-    align-items: center;
-}
 .botones{
     display: flex;
     justify-content: center;
+    padding: 5px 0px 15px 0px;
 }
-.navbar-brand{
-    font-size: small;
-}
-.carta{
-    display: flex;
-    justify-content: center;
-}
-span{
-    font-size: x-small;
-}
-.fecha{
-    display: flex;
-    justify-content: space-between;
-}
-.post{
+.card{
     width: 50%;
     display: flex;
     justify-content: center;
-    border: 1px solid rgb(228, 226, 226);
 }
-img{
+.card-body{
     width: 100%;
 }
-p{
-    font-size: 12px ;
+img{
+    object-fit: cover;
+    width: 100%;
 }
-
+.Fecha{
+    font-size:x-small;
+}
+p{
+    font-size: small;
+}

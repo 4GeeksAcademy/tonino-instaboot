@@ -9,14 +9,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container p-0">
             <!-- aqui empieza el menu  -->
-             <nav class="navbar navbar-light bg-light justify-content-between">
-                <a class="navbar-brand"><i class="fa-brands fa-instagram"></i><p>Instagram</p></a>
-
+            <nav class="navbar navbar-light bg-light justify-content-between">
+              <div class="d-flex justify-content-between">
+                <a class="navbar-brand"><i class="fa-brands fa-instagram mr-2"></i><span>Instagram</span></a>
+              </div>
                 <ul class="nav nav-pills">
                     <li class="nav-item">
-                      <a class="nav-link active btn btn-success text-white btn-sm rounded" href="#">Create a new post</a>
+                      <a class="nav-link active btn btn-success text-white btn-sm rounded mr-2" href="#">Create a new post</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle btn btn-secondary btn-sm" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-gear"></i></a>
@@ -25,32 +26,67 @@
                         <a class="dropdown-item" href="#">Accsebility</a>
                         <a class="dropdown-item" href="#">Privacy data</a>
                         <div class="dropdown-divider"></div>
-                        <p><a class="dropdown-item text-danger" href="#" >Log out</a></p>
+                        <a class="dropdown-item text-danger" href="#" >Log out</a>
                       </div>
                     </li>
                   </ul>
             </nav>
             <!-- aqui termina el menu -->
+
             <div class="botones">
                 <button type="button" class="btn btn-outline-primary btn-sm border border-white"><i class="fa-regular fa-calendar-days"></i></button>
                 <button type="button" class="btn btn-outline-primary btn-sm border border-white"><i class="fa-regular fa-square"></i></i></button>
             </div>
-            <div class="carta">
-                <div class="post">
-                    <div class="contenido">
-                        <div class="fecha">
-                            <h4>Dog</h4>
-                            <span>11/02</span>
-                        </div>
-                        <div>
-                            <img src="https://picsum.photos/400/200?random=1" class="foto"></img>
-                        </div>
-                        <div>
-                            <p><strong>200 likes</strong></p>
-                            <p>Explorando la ciudad y descubriendo sus secretos ocultos, desde grafitis artísticos hasta rincones encantadores que cuentan historias únicas. 🌆🏙️ #AventuraUrbana #Exploración #CulturaUrbana</p>
-                        </div>
-                    </div>
+
+            <!-- aqui empieza los post -->
+            <div class="post d-flex justify-content-center">
+              <div class="card">
+                <div class="card-body p-0">
+                  <div class= "header d-flex justify-content-between p-1">
+                    <h5>Mango</h5> <span class="Fecha">01/12</span>
+                  </div>
+                  <div>
+                    <img src="https://picsum.photos/id/237/300/200" alt="post perrito">
+                  </div>
+                  <div class="p-1">
+                    <p class="font-weight-bold mb-0">204 likes</p>
+                    <p>Conoce a mi fiel compañero, siempre lleno de alegría. 🐾✨ Este hermoso peludito negro ilumina mis días con su cariño y lealtad. 🖤🐶</p>
+                  </div>
                 </div>
+              </div>
+            </div>
+            <!-- aqui termina el post  -->
+            <div class="post d-flex justify-content-center mt-3">
+              <div class="card">
+                <div class="card-body p-0">
+                  <div class= "header d-flex justify-content-between p-1">
+                    <h5>Paisaje</h5> <span class="Fecha">01/12</span>
+                  </div>
+                  <div>
+                    <img src="https://picsum.photos/300/200?random=5" alt="post perrito">
+                  </div>
+                  <div class="p-1">
+                    <p class="font-weight-bold mb-0">204 likes</p>
+                    <p>Conoce a mi fiel compañero, siempre lleno de alegría. 🐾✨ Este hermoso peludito negro ilumina mis días con su cariño y lealtad. 🖤🐶</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="post d-flex justify-content-center mt-3">
+              <div class="card">
+                <div class="card-body p-0">
+                  <div class= "header d-flex justify-content-between p-1">
+                    <h5>Arte</h5> <span class="Fecha">01/12</span>
+                  </div>
+                  <div>
+                    <img src="https://picsum.photos/300/200?random=2" alt="post perrito">
+                  </div>
+                  <div class="p-1">
+                    <p class="font-weight-bold mb-0">204 likes</p>
+                    <p>Conoce a mi fiel compañero, siempre lleno de alegría. 🐾✨ Este hermoso peludito negro ilumina mis días con su cariño y lealtad. 🖤🐶</p>
+                  </div>
+                </div>
+              </div>
             </div>
 
     </div>
