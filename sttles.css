@@ -1,9 +1,4 @@
 
-.botones{
-    display: flex;
-    justify-content: center;
-    padding: 5px 0px 15px 0px;
-}
 .card{
     width: 50%;
     display: flex;
@@ -22,6 +17,7 @@ img{
 p{
     font-size: small;
 }
-.iconos{
-    background-color: lightgray;
+
+col-4{
+    margin-right: 5px;
 }

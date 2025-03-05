@@ -15,9 +15,9 @@
               <div class="d-flex justify-content-between">
                 <a class="navbar-brand"><i class="fa-brands fa-instagram mr-2"></i><span>Instagram</span></a>
               </div>
-                <ul class="nav nav-pills">
+                  <ul class="nav nav-pills">
                     <li class="nav-item">
-                      <a class="nav-link active btn btn-success text-white btn-sm rounded mr-2" href="zindez.html" target="_self">Create a new post</a>
+                      <a class="nav-link active btn btn-success text-white btn-sm rounded mr-2" href="#" data-toggle="modal" data-target="#createPostModal">Create a new post</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle btn btn-secondary btn-sm" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-gear"></i></a>
@@ -30,67 +30,143 @@
                       </div>
                     </li>
                   </ul>
-            </nav>
-            <!-- aqui termina el menu -->
+              </nav>
+            <!-- aqui termina el menu y empizan los botones de transicion -->
 
-            <div class="botones">
-                <button type="button" class="btn btn-outline-primary btn-sm border border-white"><a href="fotos.html"><i class="fa-regular fa-calendar-days"></a></i></button>
-                <button type="button" class="btn btn-outline-primary btn-sm border border-white"><a href="index.html"><i class="fa-regular fa-square"></a></i></i></button>
-            </div>
+          <ul class="nav nav-tabs justify-content-center border-0 p-2" role="tablist">
+              <li class="nav-item border-0">
+                  <a class="nav-link active border-0" id="postInsta-tab" data-toggle="tab" href="#postInsta" role="tab" aria-controls="postInsta" aria-selected="true"><i class="fa-regular fa-square"></i></a>
+              </li>
+              <li class="nav-item border-0">
+                  <a class="nav-link border-0" id="fotos-tab" data-toggle="tab" href="#fotos" role="tab" aria-controls="fotos" aria-selected="false"><i class="fa-regular fa-calendar-days"></i></a>
+              </li>
+          </ul>
 
             <!-- aqui empieza los post -->
-            <div class="post d-flex justify-content-center">
-              <div class="card">
-                <div class="card-body p-0">
-                  <div class= "header d-flex justify-content-between p-1">
-                    <h5>Mango</h5> <span class="Fecha">01/12</span>
+            <div class="tab-content">
+              <!-- aqui empieza el contenido de las pestañas -->
+              <div class="tab-pane fade show active" id="postInsta" role="tabpanel" aria-labelledby="postInsta-tab">
+                  <!-- aqui empieza los post -->
+                  <div class="post d-flex justify-content-center">
+                      <div class="card">
+                          <div class="card-body p-0">
+                              <div class="header d-flex justify-content-between p-1">
+                                  <h5>Mango</h5> <span class="Fecha">01/12</span>
+                              </div>
+                              <div>
+                                  <img src="https://picsum.photos/id/237/300/200" alt="post perrito">
+                              </div>
+                              <div class="p-1">
+                                  <p class="font-weight-bold mb-0">204 likes</p>
+                                  <p>Conoce a mi fiel compañero, siempre lleno de alegría. 🐾✨ Este hermoso peludito negro ilumina mis días con su cariño y lealtad. 🖤🐶</p>
+                              </div>
+                          </div>
+                      </div>
                   </div>
-                  <div>
-                    <img src="https://picsum.photos/id/237/300/200" alt="post perrito">
+                  <div class="post d-flex justify-content-center mt-3">
+                      <div class="card">
+                          <div class="card-body p-0">
+                              <div class="header d-flex justify-content-between p-1">
+                                  <h5>Paisaje</h5> <span class="Fecha">01/12</span>
+                              </div>
+                              <div>
+                                  <img src="https://picsum.photos/300/200?random=5" alt="post perrito">
+                              </div>
+                              <div class="p-1">
+                                  <p class="font-weight-bold mb-0">204 likes</p>
+                                  <p>Conoce a mi fiel compañero, siempre lleno de alegría. 🐾✨ Este hermoso peludito negro ilumina mis días con su cariño y lealtad. 🖤🐶</p>
+                              </div>
+                          </div>
+                      </div>
                   </div>
-                  <div class="p-1">
-                    <p class="font-weight-bold mb-0">204 likes</p>
-                    <p>Conoce a mi fiel compañero, siempre lleno de alegría. 🐾✨ Este hermoso peludito negro ilumina mis días con su cariño y lealtad. 🖤🐶</p>
+                  <div class="post d-flex justify-content-center mt-3">
+                      <div class="card">
+                          <div class="card-body p-0">
+                              <div class="header d-flex justify-content-between p-1">
+                                  <h5>Arte</h5> <span class="Fecha">01/12</span>
+                              </div>
+                              <div>
+                                  <img src="https://picsum.photos/300/200?random=2" alt="post perrito">
+                              </div>
+                              <div class="p-1">
+                                  <p class="font-weight-bold mb-0">204 likes</p>
+                                  <p>Conoce a mi fiel compañero, siempre lleno de alegría. 🐾✨ Este hermoso peludito negro ilumina mis días con su cariño y lealtad. 🖤🐶</p>
+                              </div>
+                          </div>
+                      </div>
                   </div>
-                </div>
               </div>
-            </div>
-            <!-- aqui termina el post  -->
-            <div class="post d-flex justify-content-center mt-3">
-              <div class="card">
-                <div class="card-body p-0">
-                  <div class= "header d-flex justify-content-between p-1">
-                    <h5>Paisaje</h5> <span class="Fecha">01/12</span>
-                  </div>
-                  <div>
-                    <img src="https://picsum.photos/300/200?random=5" alt="post perrito">
-                  </div>
-                  <div class="p-1">
-                    <p class="font-weight-bold mb-0">204 likes</p>
-                    <p>Conoce a mi fiel compañero, siempre lleno de alegría. 🐾✨ Este hermoso peludito negro ilumina mis días con su cariño y lealtad. 🖤🐶</p>
-                  </div>
+              <div class="tab-pane fade" id="fotos" role="tabpanel" aria-labelledby="fotos-tab">
+                <!-- aqui empieza las fotos -->
+                <div class="container mt-1">
+                    <div class="row p-0">
+                        <div class="col-4 p-1">
+                            <img src="https://picsum.photos/id/237/375/375" alt="post perrito">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img src="https://picsum.photos/375/375?random=5" alt="post perrito">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img src="https://picsum.photos/375/375?random=2" alt="post perrito">
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="post d-flex justify-content-center mt-3">
-              <div class="card">
-                <div class="card-body p-0">
-                  <div class= "header d-flex justify-content-between p-1">
-                    <h5>Arte</h5> <span class="Fecha">01/12</span>
-                  </div>
-                  <div>
-                    <img src="https://picsum.photos/300/200?random=2" alt="post perrito">
-                  </div>
-                  <div class="p-1">
-                    <p class="font-weight-bold mb-0">204 likes</p>
-                    <p>Conoce a mi fiel compañero, siempre lleno de alegría. 🐾✨ Este hermoso peludito negro ilumina mis días con su cariño y lealtad. 🖤🐶</p>
-                  </div>
+                <div class="container mt-0">
+                    <div class="row p-0">
+                        <div class="col-4 p-1">
+                            <img src="https://picsum.photos/375/375?random=4" alt="post perrito">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img src="https://picsum.photos/375/375?random=9" alt="post perrito">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img src="https://picsum.photos/375/375?random=1" alt="post perrito">
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div class="container mt-0">
+                    <div class="row p-0">
+                        <div class="col-4 p-1">
+                            <img src="https://picsum.photos/375/375?random=12" alt="post perrito">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img src="https://picsum.photos/375/375?random=15" alt="post perrito">
+                        </div>
+                        <div class="col-4 p-1">
+                            <img src="https://picsum.photos/375/375?random=13" alt="post perrito">
+                        </div>
+                    </div>
+                </div>
             </div>
-
+        </div>
+    <!-- aqui  empieza el modal -->
+    <div class="modal fade" id="createPostModal" tabindex="-1" aria-labelledby="createPostModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="createPostModalLabel">Create a new post</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group font-weight-bold">
+              <label for="Caption">Caption:</label>
+              <textarea class="form-control" id="Caption" rows="3" placeholder="Add the caption of your post here"></textarea>
+            </div>
+            <div class="iconos mb-4 mt-3">
+                <a href="#" class="btn btn mr-2 border bg-light"><i class="fa-regular fa-address-book"></i></a>
+                <a href="#" class="btn btn border bg-light"><i class="fa-regular fa-compass"></i></a>
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-end p-2 m-1">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Publish</button>
+          </div>
+        </div>
+      </div>
     </div>
-
+    <!-- aqui termina el modal -->
 
 
 
