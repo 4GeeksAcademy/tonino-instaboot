@@ -21,9 +21,20 @@ p{
 col-4{
     margin-right: 5px;
 }
-.boton1, .boton2{
-    background-color: rgb(255, 255, 255);
-    color: rgb(206, 206, 206);
-} 
+.icono-modificado {
+    color: gray;
+    background-color: white;
+    border: 1px solid gray; 
+    padding: 5px;
+    border: none;
+  }
+  
+  .nav-link.active .icono-modificado {
+    color: blue; 
+    border-color: none; 
+  }
+  .dropdown-toggle{
+    padding: 11.5px 11.5px 11.5px 11.5px;
+  }
 
 
