@@ -21,3 +21,9 @@ p{
 col-4{
     margin-right: 5px;
 }
+.boton1, .boton2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(206, 206, 206);
+} 
+
+

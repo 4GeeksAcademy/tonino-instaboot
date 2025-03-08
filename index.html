@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="sttles.css">
+    
     <title>Instagram Post</title>
+
 </head>
 
 <body>
@@ -39,14 +41,14 @@
 
         <!-- aqui termina el menu y empizan los botones de transicion -->
 
-        <ul class="nav nav-tabs justify-content-center border-0 p-2" role="tablist">
+        <ul class="nav nav-pills justify-content-center border-0 p-2" role="tablist">
             <li class="nav-item border-0">
-                <a class="nav-link active border-0" id="postInsta-tab" data-toggle="tab" href="#postInsta" role="tab"
-                    aria-controls="postInsta" aria-selected="true"><i class="fa-regular fa-square"></i></a>
+                <a class="nav-link boton1 border-0 p-1 mt-3 mb-3 mr-1"  id="fotos-tab" data-toggle="tab" href="#fotos" role="tab"
+                    aria-controls="fotos" aria-selected="false"><i class="fa-solid fa-table-cells" class="cuadrados"></i></a>
             </li>
             <li class="nav-item border-0">
-                <a class="nav-link border-0" id="fotos-tab" data-toggle="tab" href="#fotos" role="tab"
-                    aria-controls="fotos" aria-selected="false"><i class="fa-regular fa-calendar-days"></i></a>
+                <a class="nav-link active boton2 border-0 p-1  mt-3 mb-3 ml-1" id="postInsta-tab" data-toggle="tab" href="#postInsta" role="tab"
+                    aria-controls="postInsta" aria-selected="true"><i class="fa-regular fa-square" class="cuadrado"></i></a>
             </li>
         </ul>
 
@@ -168,9 +170,10 @@
                                 placeholder="Add the caption of your post here"></textarea>
                         </div>
                         <div class="iconos mb-4 mt-3">
-                            <a href="#" class="btn btn mr-2 border bg-light"><i
-                                    class="fa-regular fa-address-book"></i></a>
-                            <a href="#" class="btn btn border bg-light"><i class="fa-regular fa-compass"></i></a>
+                            <a href="#" class="btn btn-warning mr-2 border bg-light"><i
+                                    class="fa-solid fa-camera text-black"></i></a>
+                            <a href="#" class="btn btn-warning border bg-light"><i
+                                    class="fa-solid fa-location-dot text-black"></i></a>
                         </div>
                     </div>
                     <div class="modal-footer d-flex justify-content-end p-2 m-1">
